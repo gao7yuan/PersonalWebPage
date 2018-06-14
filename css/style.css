@@ -1,0 +1,113 @@
+* {
+  font-family: "Open Sans"/*Helvetica*/, sans-serif;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.navbar {
+  text-align: center;
+  font-size: 35px;
+}
+
+.navtext {
+  padding: 1em;
+  position: fixed;
+  color: rgba(255, 255, 255, 1);
+  background: linear-gradient(rgba(0, 0, 0, 1), rgba(255, 255, 255,0.5));
+  opacity: 0.5;
+  z-index: 100;
+}
+
+.navtext .navtitle {
+  display: inline;
+  word-spacing: 80px;
+}
+
+.navtext .navitem {
+  display: inline;
+  font-size:70%;
+  spacing: 50px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+  padding: 0px 20px;
+}
+
+.navimg {
+  bottom: 20px;
+}
+
+.content {
+  width: 100%;
+  padding: 60px 150px;
+  line-height: 30px;
+
+}
+
+.content h2 {
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.content p {
+  text-align: justify;
+  font-size: 15px;
+  color: rgb(80, 80, 80);
+  margin-top: 10px;
+}
+
+a.extlink {
+  color: rgb(102, 163, 255);
+}
+
+img {
+  display: block;
+}
+
+.bkgimg {
+  position: absolute;
+  top: 0;
+  opacity: 0.7;
+}
+
+.banner {
+  z-index: 100;
+  position: absolute;
+  top: 280px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.quote {
+  z-index: 100;
+  position: absolute;
+  top: 320px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.research-img {
+  width: 500px;
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+.tableyear {
+  min-width: 90px;
+}
+
+.tableentry {
+  min-width: 200px;
+}
+
+th {
+  text-align: left;
+  text-decoration: underline;
+}
