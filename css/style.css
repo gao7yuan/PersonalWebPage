@@ -151,7 +151,7 @@ td {
 
 /* -- manage different display media -- */
 
-/* Large devices (laptops/desktops, 992px and down) */
+/* Medium devices (laptops/desktops, 992px and down) */
 @media only screen and (max-width: 992px) {
   .navbar {
     font-size: 25px;
@@ -216,7 +216,7 @@ td {
   }
 }
 
-/* Medium devices (landscape tablets, 768px and down) */
+/* Small devices (landscape tablets, 768px and down) */
 @media only screen and (max-width: 768px) {
   .navbar {
     font-size: 25px;
