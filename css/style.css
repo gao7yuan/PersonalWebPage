@@ -1,11 +1,16 @@
+/* -- override default -- */
+
 * {
   font-family: "Open Sans"/*Helvetica*/, sans-serif;
   font-size: 100%;
+  color: rgb(0, 0, 0);
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   width: 100%;
 }
+
+/* -- navigation bar -- */
 
 .navbar {
   text-align: center;
@@ -27,7 +32,6 @@
 }
 
 .navtext .navtitle .navhome {
-  display: inline;
   text-decoration: none;
   color: rgba(255, 255, 255, 1);
 }
@@ -52,11 +56,30 @@
 .navimg {
   bottom: 20px;
   opacity: 0.8;
+  position: relative;
 }
 
 .navimg .contact-img {
   opacity: 0.7;
 }
+
+/* -- quote -- */
+
+.quote {
+  z-index: 100;
+  position: absolute;
+  top: 40%;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+  word-wrap: break-word;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+/* -- content --*/
 
 .content {
   width: 100%;
@@ -74,7 +97,6 @@
   text-align: justify;
   font-size: 20px;
   margin-top: 10px;
-
 }
 
 a.extlink {
@@ -82,30 +104,10 @@ a.extlink {
   text-decoration: none;
 }
 
+/* -- images -- */
+
 img {
   display: block;
-}
-
-.banner {
-  z-index: 100;
-  position: absolute;
-  top: 280px;
-  text-align: center;
-  font-size: 20px;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: rgb(0, 0, 0);
-}
-
-.quote {
-  z-index: 100;
-  position: absolute;
-  top: 320px;
-  text-align: center;
-  font-size: 30px;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: rgb(0, 0, 0);
 }
 
 .research-img {
@@ -114,19 +116,27 @@ img {
   padding-bottom: 30px;
 }
 
+/* -- table -- */
+
 .tableyear {
   min-width: 90px;
 }
 
 .tableentry {
   min-width: 200px;
-  padding:right: 20px;
+  padding-right: 20px;
 }
 
 th {
   text-align: left;
   text-decoration: underline;
 }
+
+td {
+  text-decoration: none;
+}
+
+/* -- contact -- */
 
 .maillogo {
   display: inline;
@@ -139,8 +149,219 @@ th {
   display: inline;
 }
 
-td {
-  text-decoration: none;
+/* -- manage different display media -- */
+
+/* Large devices (laptops/desktops, 992px and down) */
+@media only screen and (max-width: 992px) {
+  .navbar {
+    font-size: 25px;
+  }
+
+  .navtext .navitem {
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 2px;
+    border-width: 3px;
+    margin: 10px 10px;
+  }
+
+  .quote {
+    top: 50%;
+    font-size: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .content {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    line-height: 25px;
+  }
+
+  .content h2 {
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 12px;
+  }
+
+  .content p {
+    font-size: 18px;
+    margin-top: 5px;
+  }
+
+  .research-img {
+    width: 400px;
+    padding-bottom: 20px;
+  }
+
+  .maillogo {
+    width: 2%;
+  }
+
+  table {
+    border-spacing: 0px 10px;
+  }
+
+  .tableyear {
+    min-width: 90px;
+    font-size: 18px;
+  }
+
+  .tableentry {
+    min-width: 200px;
+    padding-right: 30px;
+    font-size: 18px;
+  }
 }
 
+/* Medium devices (landscape tablets, 768px and down) */
+@media only screen and (max-width: 768px) {
+  .navbar {
+    font-size: 25px;
+  }
+
+  .navtext {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  .navtext .navtitle {
+    padding-right: 1.5em;
+  }
+
+  .navtext .navitem {
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 2px;
+    border-width: 2.3px;
+    margin: 10px 2px;
+  }
+
+  .quote {
+    top: 50%;
+    font-size: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .content {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    line-height: 25px;
+  }
+
+  .content h2 {
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 12px;
+  }
+
+  .content p {
+    font-size: 18px;
+    margin-top: 5px;
+  }
+
+  .research-img {
+    width: 400px;
+    padding-bottom: 20px;
+  }
+
+  .maillogo {
+    width: 2.5%;
+  }
+
+  table {
+    border-spacing: 0px 10px;
+  }
+
+  .tableyear {
+    min-width: 90px;
+    font-size: 18px;
+  }
+
+  .tableentry {
+    min-width: 200px;
+    padding-right: 30px;
+    font-size: 18px;
+  }
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 600px) {
+  .navbar {
+    font-size: 20px;
+  }
+
+  .navtext .navtitle {
+    text-align: left;
+    display: block;
+  }
+
+  .navtext .navitem {
+    padding-right: 2px;
+    padding-left: 2px;
+    padding-bottom: 2px;
+    border-width: 2px;
+    margin: 0px 1px;
+  }
+
+  .quote {
+    top: 55%;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .content {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    line-height: 20px;
+  }
+
+  .content h2 {
+    font-size: 17px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .content p {
+    font-size: 15px;
+    margin-top: 5px;
+  }
+
+  .research-img {
+    width: 300px;
+    padding-bottom: 5px;
+  }
+
+  .maillogo {
+    width: 3.5%;
+  }
+
+  table {
+    border-spacing: 0px 10px;
+  }
+
+  .tableyear {
+    min-width: 90px;
+    font-size: 15px;
+  }
+
+  .tableentry {
+    min-width: 200px;
+    padding-right: 10px;
+    font-size: 15px;
+  }
+}
+
+/* Medium devices (landscape tablets, 992px and down) */
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
