@@ -1,9 +1,7 @@
-#YuanGao Personal Webpage Project
-
+# YuanGao Personal Webpage Project
 This is the personal web page of Yuan. It tells you about Yuan's research, personal fun facts, and experience.
-
+## Link
 Click [here](https://yuangao-home.herokuapp.com) to view Yuan's web page!
-
 ## Screenshots
 1. Home page of Yuan's personal web page.
 ![sc](/readmeImages/screenshot-home1.png)
@@ -20,7 +18,6 @@ Click [here](https://yuangao-home.herokuapp.com) to view Yuan's web page!
 5. Contact info of Yuan
 ![sc](/readmeImages/screenshot-contact1.png)
 ![sc](/readmeImages/screenshot-contact2.png)
-
 ## Description of meeting homework requirements
 * **Landing page** The landing page is shown as the first group of screenshots above, which is the content of ```index.html```. You should be able to get to different pages via the navigation bar on the top.
 * **Navigation elements** The navigation bar on each page will direct you to different pages. The color and positioning are styled in CSS. As shown below, the navigation bar is still in sight even if you resize the window.
@@ -31,9 +28,9 @@ Click [here](https://yuangao-home.herokuapp.com) to view Yuan's web page!
 * **Interactive component** As shown below, when mouse moves onto one of the navigation elements (except "YUAN'S"), a border will appear around the text. When the mouse leaves the border is gone.
 ![navjs](/readmeImages/screenshot-navjs.png)
 * **Responsiveness on various sized displays**  Used CSS media queries to adjust the look of the web page when resizing the window. See below:
-- Screen width 992px - 768px:
-![navjs](/readmeImages/screenshot-resize1.png)
-- Screen size 768px - 600px:
-![navjs](/readmeImages/screenshot-resize2.png)
-- Screen size 600px and below:
-![navjs](/readmeImages/screenshot-resize3.png)
+  - Screen width 992px - 768px:
+  ![navjs](/readmeImages/screenshot-resize1.png)
+  - Screen size 768px - 600px:
+  ![navjs](/readmeImages/screenshot-resize2.png)
+  - Screen size 600px and below:
+  ![navjs](/readmeImages/screenshot-resize3.png)
