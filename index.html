@@ -3,31 +3,35 @@
 <html>
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
   <link href="css/style.css" rel="stylesheet"></link>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+
   <title> Yuan's Personal Web Page </title>
 </head>
-
 <body>
   <header class="navbar">
+    <script src="./javascripts/naviinteraction.js"></script>
     <div class="navtext">
-      <h1 class="navtitle"> YUAN'S </h1>
-      <a class="navitem" href="./index.html">Home</a>
+      <h1 class="navtitle"><a class="navhome" href="./index.html">YUAN'S</a></h1>
+      <a class="navitem navselected" href="./index.html">Home</a>
       <a class="navitem" href="./research.html">Research</a>
       <a class="navitem" href="./personal.html">Personal</a>
       <a class="navitem" href="./resume.html">Resume</a>
+      <a class="navitem" href="./contact.html">Contact</a>
     </div>
-  <div class="navimg bkgimg">
+  <div class="navimg">
     <img src="./images/background.jpg">
   </div>
   </header>
+
   <p class="banner">
     Welcome to Yuan's Home Page
   </p>
-  <p class="quote">
+  <div class="quote">
+    <p>
     The more you know, the more you know you don't know
   </p>
-  <!--<footer>
-    <a class="footer home-footer" href="./contact.html">Contact</a>
-  </footer>-->
+</div>
+
 </body>

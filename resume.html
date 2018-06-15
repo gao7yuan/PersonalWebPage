@@ -4,22 +4,32 @@
 <head>
   <link href="./css/style.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
   <title> Yuan's Resume </title>
 </head>
-
 <body>
+  <script src="./javascripts/naviinteraction.js"></script>
   <header class="navbar">
     <div class="navtext">
     <h1 class="navtitle"> YUAN'S </h1>
     <a class="navitem" href="./index.html">Home</a>
     <a class="navitem" href="./research.html">Research</a>
     <a class="navitem" href="./personal.html">Personal</a>
-    <a class="navitem" href="./resume.html">Resume</a>
+    <a class="navitem navselected" href="./resume.html">Resume</a>
+    <a class="navitem" href="./contact.html">Contact</a>
   </div>
   <div class="navimg">
     <img class="navimg" src="./images/msu.jpg">
   </div>
   </header>
+  <div class="quote">
+    <p>
+    People never learn anything by being told,
+    <p>
+    they have to find out for themselves
+  </p>
+  </p>
+</div>
 <div class="content">
   <table>
     <thead>
@@ -122,8 +132,5 @@
       </tr>
     </tbody>
   </table>
-  <footer>
-    <a class="footer" href="./contact.html">Contact</a>
-  </footer>
 </div>
 </body>
