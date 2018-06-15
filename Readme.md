@@ -25,7 +25,7 @@ Click [here](https://yuangao-home.herokuapp.com) to view Yuan's web page!
 * **Internal links** The elements in the navigation bar, i.e., "YUAN'S", "Home", "Research", "Personal", "Resume" and "Contact" are linked with internal links to different pages: ```index.html```, ```research.html```, ```personal.html```, ```resume.html``` and ```contact.html```.
 * **External links** There are some external links (all in light blue) such as the publications in Screenshot Group 2 and some links in Screenshot Group 5. They open up new browser tabs when clicked.
 * **HTML table** In Screenshot Group 4, resume page, the resume is formatted using HTML table without border. The contents are presented in the first column of the table and the years are presented in the second column. Since the years are included in the publication content, there's no year column for all publications, so the publication entries span to two columns.
-* **Interactive component** As shown below, when mouse moves onto one of the navigation elements (except "YUAN'S"), a border will appear around the text. When the mouse leaves the border is gone.
+* **Interactive component** As shown below, when mouse moves onto one of the navigation elements (except "YUAN'S"), a border will appear around the text. When the mouse leaves the border is gone. This is realized using jQuery.
 ![navjs](/readmeImages/screenshot-navjs.png)
 * **Responsiveness on various sized displays**  Used CSS media queries to adjust the look of the web page when resizing the window. See below:
   - Screen width 992px - 768px:
