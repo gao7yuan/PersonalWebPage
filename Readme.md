@@ -1,5 +1,5 @@
-# YuanGao Personal Webpage Project
-## Assignment of CS5610 Web Development in Northeastern University.
+# YuanGao Personal Web Page Project
+## Assignment of CS5610 Web Development in Northeastern University
 This is the personal web page of Yuan. It tells you about Yuan's research, personal fun facts, and experience.
 (Now things have changed. Yuan does not play PUBG any more... Now she loves CSGO and DOTA (against BOTs >.<).)
 ## Link
